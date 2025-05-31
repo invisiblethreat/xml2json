@@ -44,7 +44,7 @@ def read_xml_and_convert(filename=None):
             return
     else:
         xml_data = sys.stdin.read()
-    print(xml_to_json(xml_data))
+    print(xml_to_json(xml_data), flush=True)
 
 
 read_xml_and_convert(filename=sys.argv[1] if len(sys.argv) > 1 else None)
