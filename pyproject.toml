@@ -1,0 +1,10 @@
+[project]
+name = "xml2json"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+xml2json = "main:read_xml_and_convert"
